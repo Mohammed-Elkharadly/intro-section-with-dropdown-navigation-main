@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="layout"></div>
+      <header class="header">
+        <div class="logo-container">
+          <img src="./images/logo.svg" alt="logo" class="logo"/>
+        </div>
+        <nav class="navbar">
+          <ul class="menu">
+            <li class="features list">
+              <div class="arrow-icon">
+                <a href="#">Features</a>
+                <img src="./images/icon-arrow-down.svg" alt="arrow-icon" class="arrow-down"/>
+                <img src="./images/icon-arrow-up.svg" alt="arrow-icon" class="arrow-up">
+              </div>
+              <ul class="dropdown-container">
+                <div class="dropdown">
+                  <img src="./images/icon-todo.svg" alt="icon" />
+                  <li><a href="#">Todo list</a></li>
+                </div>
+                <div class="dropdown">
+                  <img src="./images/icon-calendar.svg" alt="icon" />
+                  <li><a href="#">Calender</a></li>
+                </div>
+                <div class="dropdown">
+                  <img src="./images/icon-reminders.svg" alt="icon" />
+                  <li><a href="#">Reminders</a></li>
+                </div>
+                <div class="dropdown">
+                  <img src="./images/icon-planning.svg" alt="icon" />
+                  <li><a href="#">Planning</a></li>
+                </div>
+              </ul>
+            </li>
+            <li class="company list">
+              <div class="arrow-icon">
+                <a href="#">Company</a>
+                <img src="./images/icon-arrow-down.svg" alt="arrow-icon" class="arrow-down"/>
+                <img src="./images/icon-arrow-up.svg" alt="arrow-icon" class="arrow-up">
+              </div>
+              <ul class="dropdown-container">
+                <div class="dropdown-two">
+                  <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Blog</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <nav class="second-navbar">
+          <div class="close-menu">
+            <img src="./images/icon-close-menu.svg" alt="close-menu">
+          </div>
+          <ul class="second-menu">
+            <li class="second-features second-list">
+              <div class="second-arrow-icon">
+                <a href="#">Features</a>
+                <img src="./images/icon-arrow-down.svg" alt="arrow-icon" class="arrow-down"/>
+                <img src="./images/icon-arrow-up.svg" alt="arrow-icon" class="arrow-up">
+              </div>
+              <ul class="second-dropdown-container">
+                <div class="second-dropdown">
+                  <img src="./images/icon-todo.svg" alt="icon" />
+                  <li><a href="#">Todo list</a></li>
+                </div>
+                <div class="second-dropdown">
+                  <img src="./images/icon-calendar.svg" alt="icon" />
+                  <li><a href="#">Calender</a></li>
+                </div>
+                <div class="second-dropdown">
+                  <img src="./images/icon-reminders.svg" alt="icon" />
+                  <li><a href="#">Reminders</a></li>
+                </div>
+                <div class="second-dropdown">
+                  <img src="./images/icon-planning.svg" alt="icon" />
+                  <li><a href="#">Planning</a></li>
+                </div>
+              </ul>
+            </li>
+            <li class="second-company second-list">
+              <div class="second-arrow-icon">
+                <a href="#">Company</a>
+                <img src="./images/icon-arrow-down.svg" alt="arrow-icon" class="arrow-down"/>
+                <img src="./images/icon-arrow-up.svg" alt="arrow-icon" class="arrow-up">
+              </div>
+              <ul class="second-dropdown-container">
+                <div class="second-dropdown-two">
+                  <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Blog</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <div class="second-form-container">
+            <form action="#">
+              <button type="button" class="btn logs">Logs</button>
+              <button type="button" class="btn register">Register</button>
+            </form>
+        </nav>
+        <div class="form-container">
+          <form action="#">
+            <button type="button" class="btn logs">Logs</button>
+            <button type="button" class="btn register">Register</button>
+          </form>
+        </div>
+        <div class="menu-icon">
+          <img src="./images/icon-menu.svg" alt="menu-icon" />
+        </div>
+      </header>
+      <main>
+        <section class="content">
+          <article>
+            <h1>Make remote work</h1>
+            <p>
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button type="button" class="learn-more">Learn more</button>
+            <div class="img-container">
+              <div class="img">
+                <img src="./images/client-databiz.svg" alt="image">
+              </div>
+              <div class="img">
+                <img src="./images/client-audiophile.svg" alt="image">
+              </div>
+              <div class="img">
+                <img src="./images/client-meet.svg" alt="image">
+              </div>
+              <div class="img">
+                <img src="./images/client-maker.svg" alt="image">
+              </div>
+            </div>
+          </article>
+          <div class="main-image">
+            <img src="./images/image-hero-desktop.png" alt="hero-image" class="image-one">
+            <img src="./images/image-hero-mobile.png" alt="hero-image" class="image-two">
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
